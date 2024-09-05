@@ -168,7 +168,7 @@ const addCount = () => {
       </div>
 
       <div className="card">
-        <button  onClick ={() =>{setTheme("")}} style={{marginRight: "26px" }}>Light</button>
+        <button  onClick ={() =>{setTheme("light")}} style={{marginRight: "26px" }}>Light</button>
         <button  onClick ={() =>{setTheme("dark")}} style={{marginRight: "26px"}}>Dark</button>
         <button  onClick ={() =>{setTheme("grey")}} style={{marginRight: "26px"}}>Grey</button>
         <button  onClick ={() =>{setTheme("pink")}}>Pink</button>
