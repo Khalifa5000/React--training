@@ -1,6 +1,7 @@
 
 import './App.css';
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 
 function App() {
@@ -29,6 +30,14 @@ const addCount = () => {
 
   return (
     <div className={`App ${theme}`}>
+
+      <button>
+        <Link to="/page2">
+        Go to Page2
+        </Link>
+      </button>
+
+
       <div>
         <button onClick={() => {setTheme( theme == "" ? "dark" : "")}} style={{marginTop: "40px", }}>Toggle theme</button>
 
